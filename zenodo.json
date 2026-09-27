@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "upload_type": "dataset",
+    "title": "Open ICS Advisory Dataset (OICSAD) v0.1.0",
+    "version": "0.1.0",
+    "doi": "10.5281/zenodo.22985480",
+    "description": "<p>An open, reproducible dataset of every CISA ICS (ICSA) and ICS-medical (ICSMA) advisory published in CSAF 2.0 format, parsed into advisory-, advisory-CVE- and CVE-level tables, normalized for vendor and critical-infrastructure sector, and joined to the CISA Known Exploited Vulnerabilities (KEV) catalog. Sources are pinned to git commits of github.com/cisagov/CSAF and github.com/cisagov/kev-data. Includes code (MIT), QA report, codebook, limitations, and the BSides talk materials.</p>",
+    "license": "cc-by-4.0",
+    "access_right": "open",
+    "keywords": ["ICS", "OT", "CSAF", "CISA", "KEV", "vulnerability", "critical infrastructure", "open data"],
+    "related_identifiers": [
+      {"identifier": "https://github.com/foikwuogu/open-ics-advisory-dataset", "relation": "isSupplementedBy", "scheme": "url"}
+    ]
+  }
+}

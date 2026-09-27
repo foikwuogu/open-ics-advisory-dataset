@@ -1,0 +1,7 @@
+data/raw/csaf/
+data/raw/kev/
+__pycache__/
+.env
+*.pem
+release.zip
+.DS_Store

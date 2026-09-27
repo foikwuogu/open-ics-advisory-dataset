@@ -1,0 +1,223 @@
+QA REPORT: Open ICS Advisory Dataset
+================================================================
+CSAF commit 369141e87131c0e9eb5dfc405673ffe106a29a19 (2026-09-24T14:49:42-06:00)
+KEV  commit 9dfdff658ee0fbbca1c648235a29a5402f6533ca (2026-09-25T22:00:23Z), catalogVersion 2026.09.25
+
+[1] Row counts
+  advisory JSON files fetched : 3937
+  advisories.csv              : 3937
+  advisory_cves.csv           : 14487
+  cves.csv                    : 12346
+  vendor_map.csv (raw strings): 883
+PASS  one advisory row per fetched file (no rows lost)
+PASS  advisory_id unique
+PASS  no duplicate (advisory, CVE) pairs
+PASS  cve unique in cves.csv
+PASS  every CVE id well-formed
+PASS  every link points to an existing advisory
+PASS  sum of advisories.n_cves equals link rows
+PASS  sum of cves.n_advisories equals link rows
+
+[2] Ranges and sanity
+PASS  CVSS base in [0,10] (min 0.0, max 10.0)
+PASS  initial release dates within 2010-2026
+PASS  current_release >= initial_release
+PASS  every advisory has >=1 revision
+PASS  KEV flag agrees with catalog
+  CVEs with no CVSS score in any advisory: 287 (2.3%)
+  advisories with id-year != release-year : 71 (republished/converted: 70)
+  advisories in tracking status 'draft'   : 1 -> ['ICSA-22-020-01']
+
+[3] Normalization and match rates
+  advisories with no vendor branch in product_tree: 3
+  vendor strings raw -> normalized        : 883 -> 848
+  rules applied: {'unchanged': 658, 'suffix-stripped': 179, 'alias': 45, 'alias(parenthetical)': 1}
+  raw vendor strings that look like several companies (left unsplit): 19
+  advisories with a sector note           : 3208 (81.5%)
+  ...of which mapped to >=1 PPD-21 sector or 'Multiple': 3207 (100.0%)
+  unmapped sector texts: ['Critical Facilities']
+  KEV entries in catalog: 1726; KEV CVEs appearing in ICS advisories: 117 (6.8% of KEV)
+
+[4] Named spot checks (verify each against cisa.gov/news-events/ics-advisories/<id>)
+  - known record: ICSA-25-007-01 | ABB ASPECT System | vendor=ABB | released 2024-07-03 | CVEs=26 max CVSS=10.0 | KEV=0 | first CVE CVE-2024-11316
+  - earliest advisory: ICSA-10-147-01 | Cisco Network Building Mediator | vendor=Cisco | released 2010-02-27 | CVEs=6 max CVSS=10.0 | KEV=0 | first CVE CVE-2010-0595
+  - most CVEs in one advisory: ICSA-23-348-10 | Siemens SIMATIC S7-1500 | vendor=Siemens | released 2023-12-12 | CVEs=544 max CVSS=9.8 | KEV=0 | first CVE CVE-2013-0340
+  - most revisions: ICSA-17-129-02 | Siemens PROFINET DCP (Update V) | vendor=Siemens | released 2017-05-08 | CVEs=2 max CVSS=6.5 | KEV=0 | first CVE CVE-2017-2680
+  - medical (ICSMA) latest: ICSMA-26-253-02 | Orthanc DICOM Server | vendor=Orthanc | released 2026-09-10 | CVEs=1 max CVSS=8.1 | KEV=0 | first CVE CVE-2026-87020
+  - republished vendor CSAF: ICSA-25-294-03 | Siemens SIMATIC S7-1200 CPU V1/V2 Devices | vendor=Siemens | released 2011-06-10 | CVEs=2 max CVSS=7.5 | KEV=0 | first CVE CVE-2011-20001
+  - KEV added longest before advisory: ICSA-25-044-06 | Siemens RUGGEDCOM APE1808 | vendor=Siemens | released 2025-02-11 | CVEs=30 max CVSS=9.8 | KEV=4 | first CVE CVE-2022-42475
+  - random #1 (seed 20260926): ICSA-21-245-02 | JTEKT TOYOPUC Products | vendor=JTEKT | released 2021-09-02 | CVEs=1 max CVSS=4.3 | KEV=0 | first CVE CVE-2021-33011
+  - random #2 (seed 20260926): ICSA-25-226-30 | Rockwell Automation FactoryTalk Action Manager | vendor=Rockwell Automation | released 2025-08-14 | CVEs=1 max CVSS=7.8 | KEV=0 | first CVE CVE-2025-9036
+  - random #3 (seed 20260926): ICSA-24-011-06 | Siemens Teamcenter Visualization and JT2Go | vendor=Siemens | released 2024-01-09 | CVEs=4 max CVSS=7.8 | KEV=0 | first CVE CVE-2023-51439
+  - random #4 (seed 20260926): ICSA-25-240-06 | GE Vernova CIMPLICITY | vendor=GE Vernova | released 2025-08-28 | CVEs=1 max CVSS=7.8 | KEV=0 | first CVE CVE-2025-7719
+  - random #5 (seed 20260926): ICSA-25-296-04 | Delta Electronics ASDA-Soft | vendor=Delta Electronics | released 2025-10-23 | CVEs=2 max CVSS=7.8 | KEV=0 | first CVE CVE-2025-62579
+
+[5] Headline numbers (also in paper/stats.json)
+{
+ "counts": {
+  "advisories": 3937,
+  "icsa": 3749,
+  "icsma": 188,
+  "links": 14487,
+  "cves": 12346,
+  "vendor_strings_raw": 883,
+  "vendors_normalized": 848,
+  "kev_catalog": 1726,
+  "kev_in_ics": 117,
+  "cves_multi_advisory": 1366
+ },
+ "growth": {
+  "y2015": 137,
+  "y2025": 489,
+  "ratio_2025_2015": 3.6,
+  "peak_year": 2025,
+  "peak_count": 489,
+  "y2026_to_date": 378
+ },
+ "cvss": {
+  "scored_cves": 12059,
+  "unscored_cves": 287,
+  "critical": 1701,
+  "high": 5632,
+  "pct_critical": 14.1,
+  "pct_high_or_critical": 60.8,
+  "median_base": 7.5,
+  "pct_network": 60.0,
+  "pct_local": 32.7,
+  "pct_adjacent": 5.6,
+  "pct_physical": 1.6,
+  "version_mix": {
+   "v31": 7462,
+   "v30": 3966,
+   "v20": 631
+  }
+ },
+ "remediation": {
+  "cves_fix_any": 6923,
+  "pct_fix_any": 56.1,
+  "cves_no_fix": 760,
+  "pct_no_fix": 6.2,
+  "advisories_any_no_fix": 80
+ },
+ "kev": {
+  "pct_of_ics_cves": 0.9,
+  "pct_of_catalog": 6.8,
+  "ransomware_known": 25,
+  "median_days_advisory_to_kev_all": 27.0,
+  "kev_before_advisory": 51,
+  "post_launch_n": 76,
+  "post_launch_median_days": -28.0,
+  "post_launch_kev_before_advisory": 51,
+  "post_launch_within_30d": 8,
+  "pct_critical_among_kev": 39.8,
+  "pct_critical_among_nonkev": 13.9,
+  "kev_below_high": 14,
+  "vendors_top": [
+   {
+    "vendor": "Siemens",
+    "cves": 46
+   },
+   {
+    "vendor": "Rockwell Automation",
+    "cves": 25
+   },
+   {
+    "vendor": "Philips",
+    "cves": 8
+   },
+   {
+    "vendor": "Hitachi Energy",
+    "cves": 7
+   },
+   {
+    "vendor": "Schneider Electric",
+    "cves": 4
+   },
+   {
+    "vendor": "Exacq Technologies Johnson Controls",
+    "cves": 2
+   },
+   {
+    "vendor": "Delta Electronics",
+    "cves": 2
+   },
+   {
+    "vendor": "ValueHD PTZOptics multiCAM Systems SMTAV",
+    "cves": 2
+   }
+  ],
+  "third_party": 100,
+  "first_party": 17,
+  "pct_third_party": 85.5,
+  "post_launch_third_party": 66,
+  "post_launch_kev_before_advisory_third_party": 48,
+  "component_vendors_top": [
+   {
+    "vendor": "Cisco",
+    "cves": 15
+   },
+   {
+    "vendor": "Microsoft",
+    "cves": 13
+   },
+   {
+    "vendor": "Google",
+    "cves": 12
+   },
+   {
+    "vendor": "Linux",
+    "cves": 11
+   },
+   {
+    "vendor": "Palo Alto Networks",
+    "cves": 9
+   },
+   {
+    "vendor": "Fortinet",
+    "cves": 9
+   },
+   {
+    "vendor": "Apache",
+    "cves": 4
+   },
+   {
+    "vendor": "VMware",
+    "cves": 4
+   }
+  ],
+  "latest": [
+   {
+    "cve": "CVE-2023-4346",
+    "vendor": "KNX Association",
+    "product": "KNX Protocol Connection Authorization Option 1",
+    "added": "2026-07-15"
+   },
+   {
+    "cve": "CVE-2025-68686",
+    "vendor": "Fortinet",
+    "product": "FortiOS",
+    "added": "2026-07-27"
+   },
+   {
+    "cve": "CVE-2025-25249",
+    "vendor": "Fortinet",
+    "product": "Multiple Products",
+    "added": "2026-09-09"
+   },
+   {
+    "cve": "CVE-2025-39682",
+    "vendor": "Linux",
+    "product": "Kernel",
+    "added": "2026-09-18"
+   },
+   {
+    "cve": "CVE-2025-39964",
+    "vendor": "Linux",
+    "product": "Kernel",
+    "added": "2026-09-18"
+   }
+  ]
+ }
+}
+
+RESULT: ALL HARD CHECKS PASS

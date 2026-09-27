@@ -1,0 +1,884 @@
+vendor_raw,vendor,rule,n_advisories
+Siemens,Siemens,alias,1041
+Rockwell Automation,Rockwell Automation,alias,264
+Schneider Electric,Schneider Electric,alias,160
+Hitachi Energy,Hitachi Energy,alias,123
+Mitsubishi Electric,Mitsubishi Electric,alias,115
+Delta Electronics,Delta Electronics,alias,97
+ABB,ABB,alias,88
+"Schneider Electric Software, LLC",Schneider Electric,alias,84
+Advantech,Advantech,alias,78
+Moxa,Moxa,alias,48
+Philips,Philips,alias,39
+Honeywell,Honeywell,alias,36
+Emerson,Emerson,alias,34
+Yokogawa,Yokogawa,alias,31
+Fuji Electric,Fuji Electric,alias,30
+Omron,Omron,alias,28
+General Electric (GE),General Electric,alias,27
+GE,General Electric,alias,25
+"Becton, Dickinson and Company (BD)",Becton Dickinson (BD),alias,22
+"AVEVA Software, LLC",AVEVA,alias,21
+Johnson Controls Inc.,Johnson Controls,alias,21
+AVEVA,AVEVA,alias,20
+OSIsoft LLC,OSIsoft,alias,18
+Johnson Controls Inc,Johnson Controls,alias,17
+Horner Automation,Horner Automation,unchanged,17
+WECON,WECON,unchanged,16
+Medtronic,Medtronic,alias,15
+"Sensormatic Electronics, LLC, Johnson Controls Inc.",Sensormatic Electronics Johnson Controls,suffix-stripped,14
+PTC,PTC,alias,14
+Eaton,Eaton,alias,13
+FATEK Automation,FATEK Automation,unchanged,13
+Phoenix Contact,Phoenix Contact,alias,13
+Mitsubishi Electric Corporation,Mitsubishi Electric,alias,13
+Johnson Controls,Johnson Controls,alias,12
+Invensys,Invensys,unchanged,11
+WellinTech,WellinTech,unchanged,11
+WAGO,WAGO,alias,11
+3S-Smart Software Solutions GmbH,CODESYS (3S-Smart Software Solutions),alias,11
+Ecava,Ecava,unchanged,10
+Festo,Festo,unchanged,10
+Baxter,Baxter,alias,10
+"PHOENIX CONTACT, Innominate Security Technologies",PHOENIX CONTACT Innominate Security Technologies,suffix-stripped,10
+AutomationDirect,AutomationDirect,unchanged,10
+"Johnson Controls, Inc.",Johnson Controls,alias,10
+Inductive Automation,Inductive Automation,unchanged,9
+mySCADA,mySCADA,unchanged,9
+"Exacq Technologies, Johnson Controls Inc.",Exacq Technologies Johnson Controls,suffix-stripped,9
+Mitsubishi Electric Iconics Digital Solutions,Mitsubishi Electric Iconics Digital Solutions,unchanged,9
+Subnet Solutions Inc.,Subnet Solutions,suffix-stripped,8
+National Instruments,National Instruments,unchanged,8
+ICONICS,ICONICS,unchanged,7
+OSIsoft,OSIsoft,alias,7
+Hospira,Hospira,unchanged,7
+Automation Direct,Automation Direct,unchanged,7
+Weintek,Weintek,unchanged,7
+Santesoft,Santesoft,unchanged,7
+AzeoTech,AzeoTech,unchanged,6
+Tridium,Tridium,unchanged,6
+Sierra Wireless,Sierra Wireless,unchanged,6
+Panasonic,Panasonic,unchanged,6
+Trane,Trane,unchanged,6
+"Red Lion, AutomationDirect",Red Lion AutomationDirect,suffix-stripped,6
+SpiderControl,SpiderControl,unchanged,6
+"CODESYS, GmbH",CODESYS (3S-Smart Software Solutions),alias,6
+InduSoft,InduSoft,unchanged,5
+Microsoft,Microsoft,unchanged,5
+Measuresoft,Measuresoft,unchanged,5
+Innominate,Innominate,unchanged,5
+IOServer,IOServer,unchanged,5
+MatrikonOPC,MatrikonOPC,unchanged,5
+PEPPERL+FUCHS,PEPPERL+FUCHS,suffix-stripped,5
+Opto 22,Opto 22,unchanged,5
+Westermo,Westermo,unchanged,5
+GeutebrÃ¼ck,GeutebrÃ¼ck,unchanged,5
+B&R Industrial Automation,B&R Industrial Automation,suffix-stripped,5
+HMS Networks,HMS Networks,unchanged,5
+Lantronix,Lantronix,unchanged,5
+MicroDicom,MicroDicom,unchanged,5
+7-Technologies,7-Technologies,unchanged,4
+Unitronics,Unitronics,unchanged,4
+Beckhoff,Beckhoff,unchanged,4
+Cogent Real-Time Systems,Cogent Real-Time Systems,unchanged,4
+Progea,Progea,unchanged,4
+ARC Informatique,ARC Informatique,unchanged,4
+MICROSYS,MICROSYS,unchanged,4
+Triangle MicroWorks,Triangle MicroWorks,unchanged,4
+Codewrights,Codewrights,unchanged,4
+LCDS - LeÃ£o Consultoria e Desenvolvimento de Sistemas Ltda ME,LCDS - LeÃ£o Consultoria e Desenvolvimento de Sistemas Ltda ME,suffix-stripped,4
+Softing,Softing,unchanged,4
+JTEKT Corporation,JTEKT,suffix-stripped,4
+"ICONICS, Mitsubishi Electric",ICONICS Mitsubishi Electric,suffix-stripped,4
+Motorola Solutions,Motorola Solutions,unchanged,4
+GE Digital,GE Digital,unchanged,4
+B&R,B&R,suffix-stripped,4
+Sielco,Sielco,unchanged,3
+Sielco Sistemi,Sielco Sistemi,unchanged,3
+Open Automation Software,Open Automation Software,unchanged,3
+Korenix,Korenix,unchanged,3
+Schweitzer Engineering Laboratories,Schweitzer Engineering Laboratories,unchanged,3
+MOXA,Moxa,alias,3
+Emerson Process Management,Emerson Process Management,unchanged,3
+Rockwell,Rockwell Automation,alias,3
+Digi International,Digi International,unchanged,3
+Elipse,Elipse,unchanged,3
+XZERES,XZERES,unchanged,3
+Wind River,Wind River,unchanged,3
+Automated Logic Corporation (ALC),Automated Logic,suffix-stripped,3
+Intel,Intel,unchanged,3
+GE Healthcare,GE Healthcare,unchanged,3
+VISAM,VISAM,unchanged,3
+B. Braun Medical,B. Braun Medical,suffix-stripped,3
+Cognex,Cognex,unchanged,3
+FANUC,FANUC,unchanged,3
+"Digi International, Inc.",Digi International,suffix-stripped,3
+Elcomplus LLC,Elcomplus,suffix-stripped,3
+MZ Automation GmbH,MZ Automation,suffix-stripped,3
+HID Global,HID Global,unchanged,3
+Dover Fueling Solutions,Dover Fueling Solutions,unchanged,3
+Dingtian,Dingtian,unchanged,3
+Ashlar-Vellum,Ashlar-Vellum,unchanged,3
+CISA,CISA,unchanged,3
+Optigo Networks,Optigo Networks,unchanged,3
+Automated Logic,Automated Logic,unchanged,3
+Orthanc,Orthanc,unchanged,3
+FESTO,FESTO,unchanged,3
+Red Hat,Red Hat,unchanged,3
+B&R Industrial Automation GmbH,B&R Industrial Automation,suffix-stripped,3
+Samsung,Samsung,unchanged,2
+7T,7T,unchanged,2
+Ocean Data Systems,Ocean Data Systems,unchanged,2
+Certec,Certec,unchanged,2
+"Pro-face America, Inc., a subsidiary of Digital Electronics Corporation",Pro-face America a subsidiary of Digital Electronics,suffix-stripped,2
+Arbiter Systems,Arbiter Systems,unchanged,2
+Sinapsi,Sinapsi,unchanged,2
+3S-Smart Software Solutions,CODESYS (3S-Smart Software Solutions),alias,2
+Kepware Technologies,Kepware Technologies,unchanged,2
+Sixnet,Sixnet,unchanged,2
+Software Toolbox,Software Toolbox,unchanged,2
+ProSoft Technology,ProSoft Technology,unchanged,2
+SUBNET Solutions Inc.,SUBNET Solutions,suffix-stripped,2
+Cooper Power Systems,Cooper Power Systems,unchanged,2
+Ecava Sdn Bhd,Ecava Sdn Bhd,unchanged,2
+Cogent,Cogent,unchanged,2
+Omron Corporation,Omron,alias,2
+Sensys Networks,Sensys Networks,unchanged,2
+Nordex,Nordex,unchanged,2
+Trihedral Engineering,Trihedral Engineering,unchanged,2
+Endress+Hauser,Endress+Hauser,suffix-stripped,2
+Resource Data Management,Resource Data Management,unchanged,2
+3S CODESYS,3S CODESYS,unchanged,2
+IniNet Solutions,IniNet Solutions,unchanged,2
+Exemys,Exemys,unchanged,2
+Tibbo,Tibbo,unchanged,2
+LOYTEC,LOYTEC,unchanged,2
+Adcon Telemetry,Adcon Telemetry,unchanged,2
+CAREL,CAREL,unchanged,2
+Sauter,Sauter,unchanged,2
+Harman,Harman,unchanged,2
+Black Box,Black Box,unchanged,2
+Bosch Rexroth,Bosch Rexroth,unchanged,2
+Smiths Medical,Smiths Medical,unchanged,2
+Carlo Gavazzi,Carlo Gavazzi,unchanged,2
+Hanwha Techwin,Hanwha Techwin,unchanged,2
+Hikvision,Hikvision,unchanged,2
+"Dahua Technology Co, Ltd",Dahua Technology,suffix-stripped,2
+Trihedral Engineering Limited,Trihedral Engineering,suffix-stripped,2
+Cambium Networks,Cambium Networks,unchanged,2
+"Schweitzer Engineering Laboratories, Inc. (SEL)",Schweitzer Engineering Laboratories,suffix-stripped,2
+Solar Controls,Solar Controls,unchanged,2
+iniNet Solutions GmbH,iniNet Solutions,suffix-stripped,2
+GEOVAP,GEOVAP,unchanged,2
+Abbott Laboratories,Abbott Laboratories,unchanged,2
+Boston Scientific,Boston Scientific,unchanged,2
+Gemalto,Gemalto,unchanged,2
+Nortek,Nortek,unchanged,2
+"Hirschmann Automation and Control GmbH, Belden Inc.",Hirschmann Automation and Control Belden,suffix-stripped,2
+LCDS - LeÃ£o Consultoria e Desenvolvimento de Sistemas LTDA ME,LCDS - LeÃ£o Consultoria e Desenvolvimento de Sistemas LTDA ME,suffix-stripped,2
+Universal Robots,Universal Robots,unchanged,2
+Crestron,Crestron,unchanged,2
+NUUO,NUUO,unchanged,2
+Phillips,Philips,alias,2
+Change Healthcare,Change Healthcare,unchanged,2
+ControlByWeb,ControlByWeb,unchanged,2
+LCDS LeÃ£o Consultoria e Desenvolvimento de Sistemas LTDA ME,LCDS LeÃ£o Consultoria e Desenvolvimento de Sistemas LTDA ME,suffix-stripped,2
+ENTTEC,ENTTEC,unchanged,2
+EZAutomation,EZAutomation,unchanged,2
+Rittal,Rittal,unchanged,2
+Flexera,Flexera,unchanged,2
+Reliable Controls,Reliable Controls,unchanged,2
+Thales,Thales,unchanged,2
+"Kantech, Johnson Controls Inc.",Kantech Johnson Controls,suffix-stripped,2
+KUKA,KUKA,unchanged,2
+Wibu-Systems AG,Wibu-Systems,suffix-stripped,2
+MB connect line,MB connect line,unchanged,2
+LCDS LeÃ£o Consultoria e Desenvolvimento de Sistemas Ltda ME,LCDS LeÃ£o Consultoria e Desenvolvimento de Sistemas Ltda ME,suffix-stripped,2
+Host Engineering,Host Engineering,unchanged,2
+"Matrikon, Honeywell",Matrikon Honeywell,suffix-stripped,2
+multiple,multiple,unchanged,2
+Ovarro,Ovarro,unchanged,2
+Datakit,Datakit,unchanged,2
+ThroughTek,ThroughTek,unchanged,2
+"Bently Nevada, Baker Hughes",Bently Nevada Baker Hughes,suffix-stripped,2
+"Contolled Electronic Management Systems Ltd, Johnson Contols Inc.",Contolled Electronic Management Systems Johnson Contols,suffix-stripped,2
+InHand Networks,InHand Networks,unchanged,2
+"Xylem, Inc.",Xylem,suffix-stripped,2
+Distributed Data Systems,Distributed Data Systems,unchanged,2
+Hillrom,Hillrom,unchanged,2
+ZOLL,ZOLL,unchanged,2
+Valmet,Valmet,unchanged,2
+Illumina,Illumina,unchanged,2
+"Sensormatic Electronics, LLC, a subsidiary of Johnson Controls Inc.",Sensormatic Electronics a subsidiary of Johnson Controls,suffix-stripped,2
+SAUTER Controls,SAUTER Controls,unchanged,2
+ETIC Telecom,ETIC Telecom,unchanged,2
+OFFIS,OFFIS,unchanged,2
+Contec Health,Contec Health,unchanged,2
+Snap One,Snap One,unchanged,2
+Baicells Technologies,Baicells Technologies,unchanged,2
+Keysight Technologies,Keysight Technologies,unchanged,2
+RoboDK,RoboDK,unchanged,2
+CP Plus,CP Plus,unchanged,2
+JTEKT ELECTRONICS CORPORATION,JTEKT ELECTRONICS,suffix-stripped,2
+mySCADA Technologies,mySCADA Technologies,unchanged,2
+INEA,INEA,unchanged,2
+Keysight,Keysight,unchanged,2
+BirdDog,BirdDog,unchanged,2
+SDG Technologies,SDG Technologies,unchanged,2
+Enphase,Enphase,unchanged,2
+Axis Communications,Axis Communications,unchanged,2
+Red Lion,Red Lion,unchanged,2
+Franklin Fueling System,Franklin Fueling System,unchanged,2
+EFACEC,EFACEC,unchanged,2
+Nice,Nice,unchanged,2
+LCDS - Leão Consultoria e Desenvolvimento de Sistemas Ltda ME,LCDS - Leão Consultoria e Desenvolvimento de Sistemas Ltda ME,unchanged,2
+Intrado,Intrado,unchanged,2
+IDEC Corporation,IDEC,suffix-stripped,2
+goTenna,goTenna,unchanged,2
+Planet Technology,Planet Technology,unchanged,2
+Carrier,Carrier,unchanged,2
+KUNBUS,KUNBUS,unchanged,2
+Milesight,Milesight,unchanged,2
+FESTO Didactic,FESTO Didactic,unchanged,2
+LG Innotek,LG Innotek,unchanged,2
+Güralp Systems,Güralp Systems,unchanged,2
+GE Vernova,GE Vernova,alias,2
+Westermo Network Technologies,Westermo Network Technologies,unchanged,2
+OpenPLC_V3,OpenPLC_V3,unchanged,2
+Shelly,Shelly,unchanged,2
+SuSE,SuSE,unchanged,2
+MAXHUB,MAXHUB,unchanged,2
+Medixant,Medixant,unchanged,2
+Grassroots,Grassroots,unchanged,2
+o6 Automation GmbH,o6 Automation,suffix-stripped,2
+Jinan USR IOT Technology Limited (PUSR),Jinan USR IOT Technology,suffix-stripped,2
+Gardyn,Gardyn,unchanged,2
+NASA,NASA,unchanged,2
+Tycon Systems,Tycon Systems,unchanged,2
+MZ Automation,MZ Automation,unchanged,2
+MikroTik,MikroTik,unchanged,2
+Ebyte,Ebyte,unchanged,2
+CareCam,CareCam,unchanged,2
+lwIP,lwIP,unchanged,2
+Cisco,Cisco,unchanged,1
+Intellicom,Intellicom,unchanged,1
+Automated Solutions,Automated Solutions,unchanged,1
+Advantech/Broadwin,Advantech/Broadwin,suffix-stripped,1
+Sunway ForceControl Technology,Sunway ForceControl Technology,unchanged,1
+Scadatec,Scadatec,unchanged,1
+Measuresoft Development,Measuresoft Development,unchanged,1
+SafeNet,SafeNet,unchanged,1
+ScadaTEC,ScadaTEC,unchanged,1
+3S Smart Software Solutions,3S Smart Software Solutions,unchanged,1
+Ing. Punzenberger COPA-DATA,Ing. Punzenberger COPA-DATA,suffix-stripped,1
+Advantech/BroadWin,Advantech/BroadWin,suffix-stripped,1
+Koyo,Koyo,unchanged,1
+xArrow Software,xArrow Software,unchanged,1
+GarrettCom,GarrettCom,unchanged,1
+RealFlex Technologies,RealFlex Technologies,unchanged,1
+Fultek,Fultek,unchanged,1
+ORing Industrial Networking,ORing Industrial Networking,unchanged,1
+C3-ilex,C3-ilex,unchanged,1
+Optimalog,Optimalog,unchanged,1
+Tropos Networks,Tropos Networks,unchanged,1
+Post Oak Traffic Systems,Post Oak Traffic Systems,unchanged,1
+Siemens ; Invensys Wonderware,Siemens ; Invensys Wonderware,suffix-stripped,1
+Carlo Gavazzi Automation,Carlo Gavazzi Automation,unchanged,1
+i-GEN Solutions,i-GEN Solutions,unchanged,1
+SpecView,SpecView,unchanged,1
+360 Systems,360 Systems,unchanged,1
+Wind River; GE,Wind River; GE,suffix-stripped,1
+Canary Labs,Canary Labs,unchanged,1
+Galil,Galil,unchanged,1
+TURCK,TURCK,unchanged,1
+Alstom Grid,Alstom Grid,unchanged,1
+Monroe Electronics,Monroe Electronics,unchanged,1
+QNX,QNX,unchanged,1
+"Triangle Research International, Inc.’s (Tri Inc.)",Triangle Research International Inc.’s,suffix-stripped,1
+SEL,SEL,unchanged,1
+Alstom,Alstom,unchanged,1
+Catapult Software,Catapult Software,unchanged,1
+TRi Inc.,TRi,suffix-stripped,1
+Elecsys,Elecsys,unchanged,1
+Simens,Simens,unchanged,1
+NovaTech,NovaTech,unchanged,1
+3S,3S,unchanged,1
+NTP,NTP,unchanged,1
+WellinTech KingSCADA,WellinTech KingSCADA,unchanged,1
+AMTELCO,AMTELCO,unchanged,1
+CSWorks,CSWorks,unchanged,1
+Unified Automation,Unified Automation,unchanged,1
+OpenSSL,OpenSSL,unchanged,1
+COPA-DATA,COPA-DATA,unchanged,1
+SUBNET,SUBNET,unchanged,1
+OleumTech,OleumTech,unchanged,1
+Morpho,Morpho,unchanged,1
+CG Automation,CG Automation,unchanged,1
+ABB ; Cisco ; Digi ; eWON ; Meinberg ; Moxa ; Red Lion; Siemens,ABB ; Cisco ; Digi ; eWON ; Meinberg ; Moxa ; Red Lion; Siemens,suffix-stripped,1
+Fox-IT,Fox-IT,unchanged,1
+Meinberg Radio Clocks GmbH & Co. KG,Meinberg Radio Clocks &,suffix-stripped,1
+Accuenergy Acuvim II,Accuenergy Acuvim II,unchanged,1
+CareFusion,CareFusion,unchanged,1
+Arbiter Systems; Innomoninate; Meinberg; Siemens; Wind River System,Arbiter Systems; Innomoninate; Meinberg; Siemens; Wind River System,suffix-stripped,1
+Eaton Cooper Power Systems,Eaton Cooper Power Systems,unchanged,1
+Clorius Controls,Clorius Controls,unchanged,1
+Phoenix Contact Software,Phoenix Contact Software,unchanged,1
+Magnetrol,Magnetrol,unchanged,1
+Network Vision,Network Vision,unchanged,1
+"CIMON, Inc",CIMON,suffix-stripped,1
+SCADA Engine,SCADA Engine,unchanged,1
+SCADA Server,SCADA Server,unchanged,1
+IDS,IDS,unchanged,1
+Beckwith Electric,Beckwith Electric,unchanged,1
+N-Tron,N-Tron,unchanged,1
+RLE International GmbH,RLE International,suffix-stripped,1
+PACTware Consortium,PACTware Consortium,unchanged,1
+SMA Solar Technology,SMA Solar Technology,unchanged,1
+Everest Software LLC,Everest Software,suffix-stripped,1
+EasyIO,EasyIO,unchanged,1
+Fiat-Chrysler Automobile US (FCA US) LLC,Fiat-Chrysler Automobile US,suffix-stripped,1
+IBC Solar,IBC Solar,unchanged,1
+Janitza,Janitza,unchanged,1
+Eaton’s Cooper,Eaton’s Cooper,suffix-stripped,1
+Infinite Automation Systems,Infinite Automation Systems,unchanged,1
+SearchBlox,SearchBlox,unchanged,1
+Pacom,Pacom,unchanged,1
+Motorola,Motorola,unchanged,1
+eWON,eWON,unchanged,1
+"Tollgrade Communications, Inc.",Tollgrade Communications,suffix-stripped,1
+B+B SmartWorx,B+B SmartWorx,suffix-stripped,1
+Cogent Real-Time Systems Inc,Cogent Real-Time Systems,suffix-stripped,1
+Pro-face,Pro-face,unchanged,1
+Accuenergy,Accuenergy,unchanged,1
+KMC Controls,KMC Controls,unchanged,1
+Meteocontrol,Meteocontrol,unchanged,1
+iRZ,iRZ,unchanged,1
+Environmental Systems Corporation,Environmental Systems,suffix-stripped,1
+Meinberg,Meinberg,unchanged,1
+Tollgrade,Tollgrade,unchanged,1
+Locus Energy,Locus Energy,unchanged,1
+Navis,Navis,unchanged,1
+American Auto-Matrix,American Auto-Matrix,unchanged,1
+INDAS,INDAS,unchanged,1
+Kabona AB,Kabona,suffix-stripped,1
+IBHsoftec,IBHsoftec,unchanged,1
+CA Technologies,CA Technologies,unchanged,1
+Lynxspring,Lynxspring,unchanged,1
+Vanderbilt Industries,Vanderbilt Industries,unchanged,1
+"Tesla Motors, Inc.",Tesla Motors,suffix-stripped,1
+Visonic,Visonic,unchanged,1
+OmniMetrix,OmniMetrix,unchanged,1
+Fidelix,Fidelix,unchanged,1
+Animas,Animas,unchanged,1
+VideoInsight,VideoInsight,unchanged,1
+Belden,Belden,unchanged,1
+BINOM3,BINOM3,unchanged,1
+VIPA Controls,VIPA Controls,unchanged,1
+Marel,Marel,unchanged,1
+Certec EDV GmbH,Certec EDV,suffix-stripped,1
+BLF-Tech LLC,BLF-Tech,suffix-stripped,1
+Hyundai Motor America,Hyundai Motor America,unchanged,1
+CyberVision,CyberVision,unchanged,1
+"B+B SmartWorx, Advantech",B+B SmartWorx Advantech,suffix-stripped,1
+Satel Iberia,Satel Iberia,unchanged,1
+Detcon,Detcon,unchanged,1
+Miele Professional,Miele Professional,unchanged,1
+Phoenix Broadband Technologies LLC,Phoenix Broadband Technologies,suffix-stripped,1
+i.MX,i.MX,suffix-stripped,1
+Digital Canal Structural,Digital Canal Structural,unchanged,1
+Newport,Newport,unchanged,1
+Continental AG,Continental,suffix-stripped,1
+Mirion Technologies,Mirion Technologies,unchanged,1
+"PDQ Manufacturing, Inc.",PDQ Manufacturing,suffix-stripped,1
+SIMPlight,SIMPlight,unchanged,1
+"General Motors (GM), Shanghai OnStar (SOS)",General Motors Shanghai OnStar,suffix-stripped,1
+Saia Burgess Controls,Saia Burgess Controls,unchanged,1
+OPW Fuel Management Systems,OPW Fuel Management Systems,unchanged,1
+"Ctek, Inc.",Ctek,suffix-stripped,1
+Digium,Digium,unchanged,1
+LAVA Computer MFG Inc,LAVA Computer MFG,suffix-stripped,1
+JanTek,JanTek,unchanged,1
+ProMinent,ProMinent,unchanged,1
+Envitech Ltd,Envitech,suffix-stripped,1
+NXP Semiconductors,NXP Semiconductors,unchanged,1
+Xiongmai Technology,Xiongmai Technology,unchanged,1
+St. Jude Medical,St. Jude Medical,suffix-stripped,1
+B. Braun,B. Braun,suffix-stripped,1
+"BMC Medical, 3B Medical",BMC Medical 3B Medical,suffix-stripped,1
+i-SENS Inc,i-SENS,suffix-stripped,1
+Johnson & Johnson,Johnson & Johnson,suffix-stripped,1
+Nari,Nari,unchanged,1
+"Acoustic Technology, Inc. (ATI Systems)",Acoustic Technology,suffix-stripped,1
+Vecna Technologies Inc,Vecna Technologies,suffix-stripped,1
+Lantech,Lantech,unchanged,1
+Martem,Martem,unchanged,1
+Echelon,Echelon,unchanged,1
+Davolink,Davolink,unchanged,1
+NetComm Wireless,NetComm Wireless,unchanged,1
+Ice Qube,Ice Qube,unchanged,1
+Tec4Data,Tec4Data,unchanged,1
+Entes,Entes,unchanged,1
+"Hangzhou Xiongmai Technology Co, Ltd",Hangzhou Xiongmai Technology,suffix-stripped,1
+GAIN Electronic Co. Ltd,GAIN Electronic,suffix-stripped,1
+Telecrane,Telecrane,unchanged,1
+Circontrol,Circontrol,unchanged,1
+Fr. Sauter AG,Fr. Sauter,suffix-stripped,1
+gpsd Open Source Project,gpsd Open Source Project,unchanged,1
+Teledyne DALSA,Teledyne DALSA,unchanged,1
+INVT Electric,INVT Electric,unchanged,1
+GeutebrÃ¼ck GmbH,GeutebrÃ¼ck,suffix-stripped,1
+Vyaire Medical,Vyaire Medical,unchanged,1
+Silex Technology and GE Healthcare,Silex Technology and GE Healthcare,unchanged,1
+BeaconMedaes,BeaconMedaes,unchanged,1
+"Natus Medical, Inc. (Natus)",Natus Medical,suffix-stripped,1
+Qualcomm Life,Qualcomm Life,unchanged,1
+Carestream,Carestream,unchanged,1
+Roche Diagnostics,Roche Diagnostics,unchanged,1
+Hetronic,Hetronic,unchanged,1
+Pilz GmbH & Co. KG (Pilz),Pilz &,suffix-stripped,1
+IDenticard,IDenticard,unchanged,1
+Kunbus,Kunbus,unchanged,1
+WIBU-SYSTEMS AG,WIBU-SYSTEMS,suffix-stripped,1
+Pangea Communications,Pangea Communications,unchanged,1
+PSI GridConnect GmbH (formerly PSI Nentec GmbH),PSI GridConnect,suffix-stripped,1
+"Columbia Weather Systems, Inc.",Columbia Weather Systems,suffix-stripped,1
+"ABB, Phoenix Contact, Schneider Electric, Siemens, and WAGO",ABB Phoenix Contact Schneider Electric Siemens and WAGO,suffix-stripped,1
+"Orpak, Gilbarco Veeder-Root",Orpak Gilbarco Veeder-Root,suffix-stripped,1
+Computrols,Computrols,unchanged,1
+Optergy,Optergy,unchanged,1
+SICK,SICK,unchanged,1
+Quest,Quest,unchanged,1
+National Renewable Energy Laboratory (NREL),National Renewable Energy Laboratory,suffix-stripped,1
+Prima Systems,Prima Systems,unchanged,1
+Zebra,Zebra,unchanged,1
+Delta Controls,Delta Controls,unchanged,1
+Datalogic,Datalogic,unchanged,1
+ENEA,ENEA,unchanged,1
+Green Hills Software,Green Hills Software,unchanged,1
+SMA Solar Technology AG,SMA Solar Technology,suffix-stripped,1
+"AVEVA Software, LLC and Schneider Electric Software, LLC",AVEVA Software and Schneider Electric Software,suffix-stripped,1
+Weidmueller,Weidmueller,unchanged,1
+Equinox,Equinox,unchanged,1
+Dräger,Dräger,unchanged,1
+Stryker,Stryker,unchanged,1
+Fujifilm,Fujifilm,unchanged,1
+"ENEA, Green Hills Software, ITRON, IP Infusion, and Wind River",ENEA Green Hills Software ITRON IP Infusion and Wind River,suffix-stripped,1
+General Electric (GE) and Emerson,General Electric,alias(parenthetical),1
+Synergy Systems & Solutions (SSS),Synergy Systems & Solutions,suffix-stripped,1
+Auto-Maskin,Auto-Maskin,unchanged,1
+Systech Corporation,Systech,suffix-stripped,1
+Fazecast,Fazecast,unchanged,1
+SAE IT-systems,SAE IT-systems,unchanged,1
+SWARCO TRAFFIC SYSTEMS,SWARCO TRAFFIC SYSTEMS,unchanged,1
+Treck Inc.,Treck,suffix-stripped,1
+Grundfos Pumps Corporation,Grundfos Pumps,suffix-stripped,1
+Secomea,Secomea,unchanged,1
+multiple trailer and brake manufacturers,multiple trailer and brake manufacturers,unchanged,1
+Fieldcomm Group,Fieldcomm Group,unchanged,1
+"SHUN HU Technology Co, Ltd",SHUN HU Technology,suffix-stripped,1
+NEXCOM,NEXCOM,unchanged,1
+Paradox,Paradox,unchanged,1
+Real Time Automation (RTA),Real Time Automation,suffix-stripped,1
+National Instruments Corp. (NI),National Instruments,suffix-stripped,1
+multiple open source,multiple open source,unchanged,1
+Treck Inc,Treck,suffix-stripped,1
+Spacelabs,Spacelabs,unchanged,1
+Insulet,Insulet,unchanged,1
+BIOTRONIK,BIOTRONIK,unchanged,1
+OpenClinic GA,OpenClinic GA,unchanged,1
+Capsule Technologies,Capsule Technologies,unchanged,1
+Reolink,Reolink,unchanged,1
+"M&M Software GmbH, WAGO Kontakttechnik",M&M Software WAGO Kontakttechnik,suffix-stripped,1
+"Bachmann Electronic, GmbH",Bachmann Electronic,suffix-stripped,1
+Luxion,Luxion,unchanged,1
+PerFact,PerFact,unchanged,1
+GE Veronva,GE Veronva,unchanged,1
+EIPStackGroup,EIPStackGroup,unchanged,1
+Texas Instruments,Texas Instruments,unchanged,1
+Cassia Networks,Cassia Networks,unchanged,1
+OPC Foundation,OPC Foundation,unchanged,1
+Unified Automation GmbH,Unified Automation,suffix-stripped,1
+GENIVI Alliance,GENIVI Alliance,unchanged,1
+Mesa Labs,Mesa Labs,unchanged,1
+Open Design Alliance,Open Design Alliance,unchanged,1
+AGG Software,AGG Software,unchanged,1
+Claroty,Claroty,unchanged,1
+MDT Software,MDT Software,unchanged,1
+HCC Embedded,HCC Embedded,unchanged,1
+xArrow,xArrow,unchanged,1
+Annke,Annke,unchanged,1
+Mobile Industrial Robots (MiR),Mobile Industrial Robots,suffix-stripped,1
+Uffizio,Uffizio,unchanged,1
+AUVESY,AUVESY,unchanged,1
+Eclipse,Eclipse,unchanged,1
+eProsima,eProsima,unchanged,1
+GurumNetworks,GurumNetworks,unchanged,1
+"Object Computing, Inc. (OCI)",Object Computing,suffix-stripped,1
+Real-Time Innovations (RTI),Real-Time Innovations,suffix-stripped,1
+TwinOaks Computing,TwinOaks Computing,unchanged,1
+"Siemens Healthineers, Siemens",Siemens Healthineers Siemens,suffix-stripped,1
+Innokas YhtymÃ¤ Oy,Innokas YhtymÃ¤,suffix-stripped,1
+"SOOIL Developments Co, Ltd.",SOOIL Developments,suffix-stripped,1
+Hamilton Medical AG,Hamilton Medical,suffix-stripped,1
+Ypsomed,Ypsomed,unchanged,1
+Swisslog Healthcare,Swisslog Healthcare,unchanged,1
+Fresenius Kabi,Fresenius Kabi,unchanged,1
+"Fernhill Software, Ltd.",Fernhill Software,suffix-stripped,1
+IDEC,IDEC,unchanged,1
+"Ricon Mobile, Inc.",Ricon Mobile,suffix-stripped,1
+Airspan Networks,Airspan Networks,unchanged,1
+WIN-911,WIN-911,unchanged,1
+IPCOMM,IPCOMM,unchanged,1
+n/a,n/a,suffix-stripped,1
+Modbus Tools,Modbus Tools,unchanged,1
+Pepperl+Fuchs,Pepperl+Fuchs,suffix-stripped,1
+"Aethon, ST Engineering",Aethon ST Engineering,suffix-stripped,1
+"Interlogix, Carrier Global Corporation",Interlogix Carrier Global,suffix-stripped,1
+Adminer,Adminer,unchanged,1
+Inkscape,Inkscape,unchanged,1
+Circutor,Circutor,unchanged,1
+"Keysight Technologies, Inc.",Keysight Technologies,suffix-stripped,1
+Carrier LenelS2,Carrier LenelS2,unchanged,1
+Dominion Voting Systems,Dominion Voting Systems,unchanged,1
+Meridian Cooperative,Meridian Cooperative,unchanged,1
+Secheron,Secheron,unchanged,1
+"Pyramid Solutions, Inc.",Pyramid Solutions,suffix-stripped,1
+MiCODUS,MiCODUS,unchanged,1
+"LS ELECTRIC, LS Industrial Systems (LSIS) Co. Ltd",LS ELECTRIC LS Industrial Systems,suffix-stripped,1
+Sequi,Sequi,unchanged,1
+Triangle Microworks,Triangle Microworks,unchanged,1
+Kingspan,Kingspan,unchanged,1
+Dataprobe,Dataprobe,unchanged,1
+HIWIN,HIWIN,unchanged,1
+Altair,Altair,unchanged,1
+Daikin Holdings Singapore Pte Ltd,Daikin Holdings Singapore Pte,suffix-stripped,1
+Bentley Systems,Bentley Systems,unchanged,1
+"Haas Automation, Inc",Haas Automation,suffix-stripped,1
+HEIDENHAIN,HEIDENHAIN,unchanged,1
+"CKS, a subsidiary of Johnson Controls Inc.",CKS a subsidiary of Johnson Controls,suffix-stripped,1
+Trihedral,Trihedral,unchanged,1
+Nokia,Nokia,unchanged,1
+Cradlepoint,Cradlepoint,unchanged,1
+Digital Alert Systems,Digital Alert Systems,unchanged,1
+Contec,Contec,unchanged,1
+Prosys OPC,Prosys OPC,unchanged,1
+Priva,Priva,unchanged,1
+LifePoint Informatics,LifePoint Informatics,unchanged,1
+"Hillrom and ELI, Baxter International Inc.",Hillrom and ELI Baxter International,suffix-stripped,1
+AliveCor,AliveCor,unchanged,1
+Sewio,Sewio,unchanged,1
+RONDS,RONDS,unchanged,1
+XINJE,XINJE,unchanged,1
+SOCOMEC,SOCOMEC,unchanged,1
+Econolite,Econolite,unchanged,1
+Landis+Gyr,Landis+Gyr,suffix-stripped,1
+"EnOcean Edge Inc, a subsidiary of EnOcean GmbH-",EnOcean Edge a subsidiary of EnOcean GmbH-,suffix-stripped,1
+Control By Web,Control By Web,unchanged,1
+"LS ELECTRIC, LS Industrial Systems (LSIS) Co. Ltd-",LS ELECTRIC LS Industrial Systems Ltd-,suffix-stripped,1
+Sub-IoT project,Sub-IoT project,unchanged,1
+Akuvox,Akuvox,unchanged,1
+"Step Tools, Inc",Step Tools,suffix-stripped,1
+Autodesk,Autodesk,unchanged,1
+SAUTER,SAUTER,unchanged,1
+"ProPump and Controls, Inc.",ProPump and Controls,suffix-stripped,1
+Nexx,Nexx,unchanged,1
+Industrial Control Links,Industrial Control Links,unchanged,1
+Mitsubishi Electric India,Mitsubishi Electric India,unchanged,1
+Scada-LTS,Scada-LTS,unchanged,1
+Teltonika,Teltonika,unchanged,1
+Atlas Copco,Atlas Copco,unchanged,1
+"Sensormatic Electronics, a subsidiary of Johnson Controls, Inc.",Sensormatic Electronics a subsidiary of Johnson Controls,suffix-stripped,1
+Datalogics,Datalogics,unchanged,1
+"PiiGAB, Processinformation i G�teborg Aktiebolag",PiiGAB Processinformation i G�teborg Aktiebolag,suffix-stripped,1
+ABUS,ABUS,unchanged,1
+Iagona,Iagona,unchanged,1
+GeoVision,GeoVision,unchanged,1
+APSystems,APSystems,unchanged,1
+TEL-STER Sp. z o. o.,TEL-STER Sp. z o. o,suffix-stripped,1
+Sensormatic Electronics,Sensormatic Electronics,unchanged,1
+Walchem,Walchem,unchanged,1
+KNX Association,KNX Association,unchanged,1
+OPTO 22,OPTO 22,unchanged,1
+ARDEREG,ARDEREG,unchanged,1
+Fujitsu Limited,Fujitsu,suffix-stripped,1
+Socomec,Socomec,unchanged,1
+Fujitsu Software,Fujitsu Software,unchanged,1
+Real Time Automation,Real Time Automation,unchanged,1
+Suprema Inc.,Suprema,suffix-stripped,1
+Baker Hughes - Bently Nevada,Baker Hughes - Bently Nevada,unchanged,1
+DEXMA,DEXMA,unchanged,1
+Qognify,Qognify,unchanged,1
+Centralite,Centralite,unchanged,1
+Zavio,Zavio,unchanged,1
+General Electric,General Electric,alias,1
+Franklin Electric Fueling Systems,Franklin Electric Fueling Systems,unchanged,1
+Zebra Technologies,Zebra Technologies,unchanged,1
+Cambium,Cambium,unchanged,1
+"Sensormatic Electronics, LLC, an affiliate of Johnson Controls Inc.",Sensormatic Electronics an affiliate of Johnson Controls,suffix-stripped,1
+Open Design Alliance (ODA),Open Design Alliance,suffix-stripped,1
+EuroTel,EuroTel,unchanged,1
+FXC,FXC,unchanged,1
+QNAP,QNAP,unchanged,1
+B. Braun Melsungen AG,B. Braun Melsungen,suffix-stripped,1
+Softneta,Softneta,unchanged,1
+Rapid Software LLC,Rapid Software,suffix-stripped,1
+SEW-EURODRIVE,SEW-EURODRIVE,unchanged,1
+Integration Objects,Integration Objects,unchanged,1
+APsystems,APsystems,unchanged,1
+Voltronic Power,Voltronic Power,unchanged,1
+MachineSense LLC.,MachineSense,suffix-stripped,1
+SystemK,SystemK,unchanged,1
+Hitron Systems,Hitron Systems,unchanged,1
+Gessler GmbH,Gessler,suffix-stripped,1
+"Qolsys, Inc.",Qolsys,suffix-stripped,1
+Commend,Commend,unchanged,1
+Chirp Systems,Chirp Systems,unchanged,1
+IOSiX,IOSiX,unchanged,1
+Electrolink,Electrolink,unchanged,1
+CyberPower,CyberPower,unchanged,1
+alpitronic,alpitronic,unchanged,1
+Campbell Scientific,Campbell Scientific,unchanged,1
+LenelS2,LenelS2,unchanged,1
+Inosoft,Inosoft,unchanged,1
+Uniview,Uniview,unchanged,1
+RAD Data Communications,RAD Data Communications,unchanged,1
+marKoni,marKoni,unchanged,1
+HMS Industrial Networks,HMS Industrial Networks,unchanged,1
+Positron S.R.L,Positron,suffix-stripped,1
+AVTECH SECURITY Corporation,AVTECH SECURITY,suffix-stripped,1
+Vonets,Vonets,unchanged,1
+Dorsett Controls,Dorsett Controls,unchanged,1
+Mobotix,Mobotix,unchanged,1
+Avtec,Avtec,unchanged,1
+LOYTEC electronics GmbH,LOYTEC electronics,suffix-stripped,1
+Hughes Network Systems,Hughes Network Systems,unchanged,1
+Viessmann Climate Solutions SE,Viessmann Climate Solutions,suffix-stripped,1
+Millbeck Communications,Millbeck Communications,unchanged,1
+MegaSys Computer Technologies,MegaSys Computer Technologies,unchanged,1
+Kastle Systems,Kastle Systems,unchanged,1
+OPW Fuel Managements Systems,OPW Fuel Managements Systems,unchanged,1
+Alisonic,Alisonic,unchanged,1
+Franklin Fueling Systems,Franklin Fueling Systems,unchanged,1
+Dover Fueling Solutions (DFS),Dover Fueling Solutions,suffix-stripped,1
+"OMNTEC Mfg., Inc.",OMNTEC Mfg,suffix-stripped,1
+Atelmo,Atelmo,unchanged,1
+TEM,TEM,unchanged,1
+Elvaco,Elvaco,unchanged,1
+Kieback&Peter,Kieback&Peter,suffix-stripped,1
+VIMESA,VIMESA,unchanged,1
+iniNet Solutions,iniNet Solutions,unchanged,1
+Deep Sea Electronics,Deep Sea Electronics,unchanged,1
+Solar-Log,Solar-Log,unchanged,1
+Beckhoff Automation,Beckhoff Automation,unchanged,1
+Subnet Solutions,Subnet Solutions,unchanged,1
+2N,2N,unchanged,1
+CODESYS GmbH,CODESYS (3S-Smart Software Solutions),alias,1
+myScada,myScada,unchanged,1
+Ruijie,Ruijie,unchanged,1
+MOBATIME,MOBATIME,unchanged,1
+ThreatQuotient Inc.,ThreatQuotient,suffix-stripped,1
+BPL Medical Technologies,BPL Medical Technologies,unchanged,1
+Ossur,Ossur,unchanged,1
+Nedap Librix,Nedap Librix,unchanged,1
+Belledonne Communications,Belledonne Communications,unchanged,1
+ZF,ZF,unchanged,1
+New Rock Technologies,New Rock Technologies,unchanged,1
+Western Telematic Inc,Western Telematic,suffix-stripped,1
+Elber,Elber,unchanged,1
+Trimble,Trimble,unchanged,1
+ORing,ORing,unchanged,1
+Outback Power,Outback Power,unchanged,1
+Rapid Response Monitoring,Rapid Response Monitoring,unchanged,1
+Elseta,Elseta,unchanged,1
+GMOD,GMOD,unchanged,1
+Edimax,Edimax,unchanged,1
+Sungrow,Sungrow,unchanged,1
+SMA,SMA,unchanged,1
+"Inaba Denki Sangyo Co., Ltd.",Inaba Denki Sangyo,suffix-stripped,1
+Growatt,Growatt,unchanged,1
+Mitsubishi Electric Europe B.V.,Mitsubishi Electric Europe,suffix-stripped,1
+ALBEDO Telecom,ALBEDO Telecom,unchanged,1
+Vestel,Vestel,unchanged,1
+BrightSign,BrightSign,unchanged,1
+ECOVACS,ECOVACS,unchanged,1
+ABUP,ABUP,unchanged,1
+Danfoss,Danfoss,unchanged,1
+Vertiv,Vertiv,unchanged,1
+Assured Telematics Inc.,Assured Telematics,suffix-stripped,1
+Consilium Safety,Consilium Safety,unchanged,1
+Instantel,Instantel,unchanged,1
+CyberData,CyberData,unchanged,1
+SinoTrack,SinoTrack,unchanged,1
+"ValueHD, PTZOptics, multiCAM Systems, SMTAV",ValueHD PTZOptics multiCAM Systems SMTAV,suffix-stripped,1
+LS Electric,LS Electric,unchanged,1
+Kaleris,Kaleris,unchanged,1
+ControlID,ControlID,unchanged,1
+Parsons,Parsons,unchanged,1
+MICROSENS,MICROSENS,unchanged,1
+TrendMakers,TrendMakers,unchanged,1
+"Voltronic Power, PowerShield",Voltronic Power PowerShield,suffix-stripped,1
+Association of American Railroads (AAR),Association of American Railroads,suffix-stripped,1
+Wabtec,Wabtec,unchanged,1
+DPS Electronics,DPS Electronics,unchanged,1
+LITEON,LITEON,unchanged,1
+Leviton,Leviton,unchanged,1
+DuraComm Corporation,DuraComm,suffix-stripped,1
+Network Thermostat,Network Thermostat,unchanged,1
+Tigo Energy,Tigo Energy,unchanged,1
+Burk Technology,Burk Technology,unchanged,1
+Packet Power,Packet Power,unchanged,1
+Dreame Technology,Dreame Technology,unchanged,1
+EG4 Electronics,EG4 Electronics,unchanged,1
+Yealink,Yealink,unchanged,1
+INVT,INVT,unchanged,1
+SunPower,SunPower,unchanged,1
+Daikin Europe N.V,Daikin Europe N.V,suffix-stripped,1
+Viessmann,Viessmann,unchanged,1
+Megasys Enterprises,Megasys Enterprises,unchanged,1
+Raise3D,Raise3D,unchanged,1
+CloudEdge,CloudEdge,unchanged,1
+Raisecomm,Raisecomm,unchanged,1
+ASKI Energy,ASKI Energy,unchanged,1
+Veeder-Root,Veeder-Root,unchanged,1
+ISO/IEC,ISO/IEC,suffix-stripped,1
+Survision,Survision,unchanged,1
+Radiometrics,Radiometrics,unchanged,1
+IDIS,IDIS,unchanged,1
+Ubia,Ubia,unchanged,1
+Brightpick AI,Brightpick AI,unchanged,1
+General Industrial Controls,General Industrial Controls,unchanged,1
+METZ CONNECT,METZ CONNECT,unchanged,1
+iCam365,iCam365,unchanged,1
+Zenitel,Zenitel,unchanged,1
+SiRcom,SiRcom,unchanged,1
+Industrial Video & Control,Industrial Video & Control,suffix-stripped,1
+Iskra,Iskra,unchanged,1
+Sunbird,Sunbird,unchanged,1
+SolisCloud,SolisCloud,unchanged,1
+U-Boot,U-Boot,unchanged,1
+Qualcomm,Qualcomm,unchanged,1
+D-Link (India Limited),D-Link,suffix-stripped,1
+Securus CCTV,Securus CCTV,unchanged,1
+Sparsh Securitech,Sparsh Securitech,unchanged,1
+"Mitsubishi Electric Iconics Digital Solutions, Mitsubishi Electric",Mitsubishi Electric Iconics Digital Solutions Mitsubishi Electric,suffix-stripped,1
+Qardio,Qardio,unchanged,1
+Dario Health,Dario Health,unchanged,1
+INFINITT Healthcare,INFINITT Healthcare,unchanged,1
+Pixmeo,Pixmeo,unchanged,1
+Panoramic Corporation,Panoramic,suffix-stripped,1
+FUJIFILM Healthcare Americas Corporation,FUJIFILM Healthcare Americas,suffix-stripped,1
+Oxford Nanopore Technologies,Oxford Nanopore Technologies,unchanged,1
+NIHON KOHDEN,NIHON KOHDEN,unchanged,1
+Vertikal Systems,Vertikal Systems,unchanged,1
+Mirion Medical,Mirion Medical,unchanged,1
+Varex Imaging,Varex Imaging,unchanged,1
+WHILL Inc.,WHILL,suffix-stripped,1
+Columbia Weather Systems,Columbia Weather Systems,unchanged,1
+YoSmart,YoSmart,unchanged,1
+Hubitat,Hubitat,unchanged,1
+EVMAPA,EVMAPA,unchanged,1
+iba Systems,iba Systems,unchanged,1
+Festo Didactic SE,Festo Didactic,suffix-stripped,1
+KiloView,KiloView,unchanged,1
+Avation,Avation,unchanged,1
+RISS SRL,RISS,suffix-stripped,1
+Synectix,Synectix,unchanged,1
+TP-Link Systems Inc.,TP-Link Systems,suffix-stripped,1
+Ilevia,Ilevia,unchanged,1
+ZLAN Information Technology Co.,ZLAN Information Technology,suffix-stripped,1
+Airleader GmbH,Airleader,suffix-stripped,1
+EnOcean Edge Inc,EnOcean Edge,suffix-stripped,1
+Welker,Welker,unchanged,1
+InSAT,InSAT,unchanged,1
+"Pelco, Inc.",Pelco,suffix-stripped,1
+CloudCharge,CloudCharge,unchanged,1
+EV2GO,EV2GO,unchanged,1
+Chargemap,Chargemap,unchanged,1
+SWTCH EV,SWTCH EV,unchanged,1
+EV Energy,EV Energy,unchanged,1
+Mobility46,Mobility46,unchanged,1
+Copeland,Copeland,unchanged,1
+Portwell,Portwell,unchanged,1
+Labkotec,Labkotec,unchanged,1
+Mobiliti,Mobiliti,unchanged,1
+ePower,ePower,unchanged,1
+Everon,Everon,unchanged,1
+Apeman,Apeman,unchanged,1
+Ceragon,Ceragon,unchanged,1
+CODESYS,CODESYS (3S-Smart Software Solutions),alias,1
+CTEK,CTEK,unchanged,1
+IGL-Technologies,IGL-Technologies,unchanged,1
+Pharos Controls,Pharos Controls,unchanged,1
+OpenCode Systems,OpenCode Systems,unchanged,1
+Anritsu,Anritsu,unchanged,1
+PX4,PX4,unchanged,1
+Contemporary Controls Sedona Alliance,Contemporary Controls Sedona Alliance,unchanged,1
+GPL Odorizers,GPL Odorizers,unchanged,1
+Anviz,Anviz,unchanged,1
+Hardy Barth,Hardy Barth,unchanged,1
+Zero Motorcycles,Zero Motorcycles,unchanged,1
+Silex Technology,Silex Technology,unchanged,1
+SenseLive,SenseLive,unchanged,1
+Yadea,Yadea,unchanged,1
+Carlson Software,Carlson Software,unchanged,1
+SpiceJet,SpiceJet,unchanged,1
+"Hangzhou Xiongmai Technology Co., Ltd",Hangzhou Xiongmai Technology,suffix-stripped,1
+NSA,NSA,unchanged,1
+ScadaBR,ScadaBR,unchanged,1
+ZKTeco,ZKTeco,unchanged,1
+Kieback & Peter,Kieback & Peter,suffix-stripped,1
+Danelec,Danelec,unchanged,1
+KMW,KMW,unchanged,1
+XCharge,XCharge,unchanged,1
+NAVTOR,NAVTOR,unchanged,1
+Yarbo,Yarbo,unchanged,1
+Naxclow,Naxclow,unchanged,1
+Brickcom,Brickcom,unchanged,1
+AVer,AVer,unchanged,1
+Hubbell,Hubbell,unchanged,1
+EVoke Systems,EVoke Systems,unchanged,1
+Daktronics,Daktronics,unchanged,1
+H.VIEW,H.VIEW,suffix-stripped,1
+Frangoteam,Frangoteam,unchanged,1
+StoneFly,StoneFly,unchanged,1
+ST Engineering iDirect,ST Engineering iDirect,unchanged,1
+CubeSpace,CubeSpace,unchanged,1
+Hydro-Québec,Hydro-Québec,unchanged,1
+Labcenter Electronics,Labcenter Electronics,unchanged,1
+OpenPLC,OpenPLC,unchanged,1
+SALTO,SALTO,unchanged,1
+Pronetiqs,Pronetiqs,unchanged,1
+igloohome,igloohome,unchanged,1
+Toptech Systems,Toptech Systems,unchanged,1
+Watchfire,Watchfire,unchanged,1
+Acrisure,Acrisure,unchanged,1
+Haiwell,Haiwell,unchanged,1
+ANDRITZ,ANDRITZ,unchanged,1
+Rently,Rently,unchanged,1
+Zoneminder,Zoneminder,unchanged,1
+PayRange,PayRange,unchanged,1
+Bendix,Bendix,unchanged,1
+"FURUNO ELECTRIC CO.,LTD.",FURUNO ELECTRIC,suffix-stripped,1
+Xiiaozet,Xiiaozet,unchanged,1
+All-Line Equipment Company,All-Line Equipment,suffix-stripped,1
+Applied Systems Engineering,Applied Systems Engineering,unchanged,1
+OPCFoundation,OPCFoundation,unchanged,1
+IXON,IXON,unchanged,1
+Pyramid Solutions,Pyramid Solutions,unchanged,1
+Digital Watchdog,Digital Watchdog,unchanged,1
+Wärtsilä,Wärtsilä,unchanged,1
+Bransys,Bransys,unchanged,1
+SUSE,SUSE,unchanged,1
+Autonomy Logic,Autonomy Logic,unchanged,1
+Botslab,Botslab,unchanged,1
+Eufy,Eufy,unchanged,1
+Eppendorf,Eppendorf,unchanged,1
+Fourth Frontier,Fourth Frontier,unchanged,1
+Apollo Pharmacy,Apollo Pharmacy,unchanged,1
+pydicom,pydicom,unchanged,1
+Open Health Imaging Foundation (OHIF),Open Health Imaging Foundation,suffix-stripped,1
+Thermo Fisher,Thermo Fisher,unchanged,1
+Quanovate Tech Inc. (operating as Mira / Mira Care),Quanovate Tech,suffix-stripped,1
+Pulsetto,Pulsetto,unchanged,1
+Flow Neuroscience,Flow Neuroscience,unchanged,1
+NextGen Healthcare,NextGen Healthcare,unchanged,1

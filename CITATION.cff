@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "Open ICS Advisory Dataset (OICSAD)"
+version: "0.1.0"
+date-released: "2026-09-26"
+authors:
+  - family-names: "Ikwuogu"
+    given-names: "Friday Ogochukwu"
+    orcid: "https://orcid.org/0009-0009-2222-1318"
+    email: "Friday.ikwuogu@gmail.com"
+    affiliation: "Independent Researcher, Odessa, Texas, USA"
+  - family-names: "Orimogunje"
+    given-names: "Abidemi"
+    email: "orimogunjea@run.edu.ng"
+    affiliation: "Electrical and Electronic Engineering Department, Redeemer's University, Ede, Osun State, Nigeria"
+  - family-names: "Pinyi"
+    given-names: "Eria Othieno"
+    email: "eriaothienopinyi@gmail.com"
+    affiliation: "Computer Science and Engineering Department, University of Fairfax, USA"
+  - family-names: "Mike-Ewewie"
+    given-names: "David"
+    email: "mike_d63291@utpb.edu"
+    affiliation: "Computer Science Department, University of Texas Permian Basin, Odessa, Texas, USA"
+license: CC-BY-4.0
+doi: "10.5281/zenodo.22985480"
+repository-code: "https://github.com/foikwuogu/open-ics-advisory-dataset"
+abstract: "An open, reproducible dataset of every CISA ICS and ICS-medical advisory published in CSAF 2.0 format (2010-2026), parsed into advisory, advisory-CVE and CVE tables and joined to the CISA Known Exploited Vulnerabilities catalog."
+keywords:
+  - industrial control systems
+  - operational technology
+  - CSAF
+  - CISA
+  - Known Exploited Vulnerabilities
+  - vulnerability management

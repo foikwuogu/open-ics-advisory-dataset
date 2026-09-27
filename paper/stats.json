@@ -1,0 +1,363 @@
+{
+ "snapshot": {
+  "csaf_commit": "369141e87131c0e9eb5dfc405673ffe106a29a19",
+  "csaf_commit_date": "2026-09-24",
+  "kev_commit": "9dfdff658ee0fbbca1c648235a29a5402f6533ca",
+  "kev_commit_date": "2026-09-25",
+  "kev_catalog_version": "2026.09.25",
+  "first_advisory_date": "2010-02-27",
+  "last_advisory_date": "2026-09-24"
+ },
+ "counts": {
+  "advisories": 3937,
+  "icsa": 3749,
+  "icsma": 188,
+  "links": 14487,
+  "cves": 12346,
+  "vendor_strings_raw": 883,
+  "vendors_normalized": 848,
+  "kev_catalog": 1726,
+  "kev_in_ics": 117,
+  "cves_multi_advisory": 1366
+ },
+ "years": {
+  "2010": 6,
+  "2011": 47,
+  "2012": 79,
+  "2013": 80,
+  "2014": 95,
+  "2015": 137,
+  "2016": 128,
+  "2017": 187,
+  "2018": 222,
+  "2019": 226,
+  "2020": 248,
+  "2021": 395,
+  "2022": 386,
+  "2023": 391,
+  "2024": 443,
+  "2025": 489,
+  "2026": 378
+ },
+ "growth": {
+  "y2015": 137,
+  "y2025": 489,
+  "ratio_2025_2015": 3.6,
+  "peak_year": 2025,
+  "peak_count": 489,
+  "y2026_to_date": 378
+ },
+ "vendors_top10": [
+  {
+   "vendor": "Siemens",
+   "advisories": 1043,
+   "pct": 26.5
+  },
+  {
+   "vendor": "Rockwell Automation",
+   "advisories": 267,
+   "pct": 6.8
+  },
+  {
+   "vendor": "Schneider Electric",
+   "advisories": 244,
+   "pct": 6.2
+  },
+  {
+   "vendor": "Mitsubishi Electric",
+   "advisories": 128,
+   "pct": 3.3
+  },
+  {
+   "vendor": "Hitachi Energy",
+   "advisories": 123,
+   "pct": 3.1
+  },
+  {
+   "vendor": "Delta Electronics",
+   "advisories": 97,
+   "pct": 2.5
+  },
+  {
+   "vendor": "ABB",
+   "advisories": 88,
+   "pct": 2.2
+  },
+  {
+   "vendor": "Advantech",
+   "advisories": 78,
+   "pct": 2.0
+  },
+  {
+   "vendor": "Johnson Controls",
+   "advisories": 60,
+   "pct": 1.5
+  },
+  {
+   "vendor": "General Electric",
+   "advisories": 53,
+   "pct": 1.3
+  }
+ ],
+ "siemens_pct": 26.5,
+ "top5_vendor_pct": 45.8,
+ "vendors_single_advisory": 601,
+ "sectors_since_2018": {
+  "advisories": 3178,
+  "Critical Manufacturing": 1542,
+  "Energy": 921,
+  "Commercial Facilities": 376,
+  "Transportation Systems": 372,
+  "Healthcare and Public Health": 353,
+  "Water and Wastewater Systems": 331,
+  "Government Services and Facilities": 199,
+  "Food and Agriculture": 159,
+  "Chemical": 142,
+  "Information Technology": 137,
+  "Communications": 131,
+  "Financial Services": 113,
+  "Dams": 27,
+  "Defense Industrial Base": 25,
+  "Emergency Services": 18,
+  "Nuclear Reactors, Materials, and Waste": 4
+ },
+ "cvss": {
+  "scored_cves": 12059,
+  "unscored_cves": 287,
+  "critical": 1701,
+  "high": 5632,
+  "pct_critical": 14.1,
+  "pct_high_or_critical": 60.8,
+  "median_base": 7.5,
+  "pct_network": 60.0,
+  "pct_local": 32.7,
+  "pct_adjacent": 5.6,
+  "pct_physical": 1.6,
+  "version_mix": {
+   "v31": 7462,
+   "v30": 3966,
+   "v20": 631
+  }
+ },
+ "cwe_top10": [
+  {
+   "cwe": "CWE-20",
+   "name": "Improper Input Validation",
+   "cves": 1328,
+   "pct": 10.8
+  },
+  {
+   "cwe": "CWE-787",
+   "name": "Out-of-bounds Write",
+   "cves": 559,
+   "pct": 4.5
+  },
+  {
+   "cwe": "CWE-125",
+   "name": "Out-of-bounds Read",
+   "cves": 547,
+   "pct": 4.4
+  },
+  {
+   "cwe": "CWE-121",
+   "name": "Stack-based Buffer Overflow",
+   "cves": 413,
+   "pct": 3.3
+  },
+  {
+   "cwe": "CWE-79",
+   "name": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')",
+   "cves": 379,
+   "pct": 3.1
+  },
+  {
+   "cwe": "CWE-416",
+   "name": "Use After Free",
+   "cves": 355,
+   "pct": 2.9
+  },
+  {
+   "cwe": "CWE-119",
+   "name": "Improper Restriction of Operations within the Bounds of a Memory Buffer",
+   "cves": 294,
+   "pct": 2.4
+  },
+  {
+   "cwe": "CWE-476",
+   "name": "NULL Pointer Dereference",
+   "cves": 291,
+   "pct": 2.4
+  },
+  {
+   "cwe": "CWE-22",
+   "name": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')",
+   "cves": 288,
+   "pct": 2.3
+  },
+  {
+   "cwe": "CWE-306",
+   "name": "Missing Authentication for Critical Function",
+   "cves": 285,
+   "pct": 2.3
+  }
+ ],
+ "cwe_missing": 0,
+ "remediation": {
+  "cves_fix_any": 6923,
+  "pct_fix_any": 56.1,
+  "cves_no_fix": 760,
+  "pct_no_fix": 6.2,
+  "advisories_any_no_fix": 80
+ },
+ "kev": {
+  "pct_of_ics_cves": 0.9,
+  "pct_of_catalog": 6.8,
+  "ransomware_known": 25,
+  "median_days_advisory_to_kev_all": 27.0,
+  "kev_before_advisory": 51,
+  "post_launch_n": 76,
+  "post_launch_median_days": -28.0,
+  "post_launch_kev_before_advisory": 51,
+  "post_launch_within_30d": 8,
+  "pct_critical_among_kev": 39.8,
+  "pct_critical_among_nonkev": 13.9,
+  "kev_below_high": 14,
+  "vendors_top": [
+   {
+    "vendor": "Siemens",
+    "cves": 46
+   },
+   {
+    "vendor": "Rockwell Automation",
+    "cves": 25
+   },
+   {
+    "vendor": "Philips",
+    "cves": 8
+   },
+   {
+    "vendor": "Hitachi Energy",
+    "cves": 7
+   },
+   {
+    "vendor": "Schneider Electric",
+    "cves": 4
+   },
+   {
+    "vendor": "Exacq Technologies Johnson Controls",
+    "cves": 2
+   },
+   {
+    "vendor": "Delta Electronics",
+    "cves": 2
+   },
+   {
+    "vendor": "ValueHD PTZOptics multiCAM Systems SMTAV",
+    "cves": 2
+   }
+  ],
+  "third_party": 100,
+  "first_party": 17,
+  "pct_third_party": 85.5,
+  "post_launch_third_party": 66,
+  "post_launch_kev_before_advisory_third_party": 48,
+  "component_vendors_top": [
+   {
+    "vendor": "Cisco",
+    "cves": 15
+   },
+   {
+    "vendor": "Microsoft",
+    "cves": 13
+   },
+   {
+    "vendor": "Google",
+    "cves": 12
+   },
+   {
+    "vendor": "Linux",
+    "cves": 11
+   },
+   {
+    "vendor": "Palo Alto Networks",
+    "cves": 9
+   },
+   {
+    "vendor": "Fortinet",
+    "cves": 9
+   },
+   {
+    "vendor": "Apache",
+    "cves": 4
+   },
+   {
+    "vendor": "VMware",
+    "cves": 4
+   }
+  ],
+  "latest": [
+   {
+    "cve": "CVE-2023-4346",
+    "vendor": "KNX Association",
+    "product": "KNX Protocol Connection Authorization Option 1",
+    "added": "2026-07-15"
+   },
+   {
+    "cve": "CVE-2025-68686",
+    "vendor": "Fortinet",
+    "product": "FortiOS",
+    "added": "2026-07-27"
+   },
+   {
+    "cve": "CVE-2025-25249",
+    "vendor": "Fortinet",
+    "product": "Multiple Products",
+    "added": "2026-09-09"
+   },
+   {
+    "cve": "CVE-2025-39682",
+    "vendor": "Linux",
+    "product": "Kernel",
+    "added": "2026-09-18"
+   },
+   {
+    "cve": "CVE-2025-39964",
+    "vendor": "Linux",
+    "product": "Kernel",
+    "added": "2026-09-18"
+   }
+  ]
+ },
+ "quality": {
+  "id_year_mismatch": 71,
+  "republished_or_converted": 1112,
+  "pct_revised": 43.8,
+  "max_revisions": 27,
+  "sector_note_missing_pre2017": 99.5,
+  "sector_note_present": 3208,
+  "exploitability_note_present": 1130,
+  "draft_status": 1,
+  "multi_company_vendor_strings": 19
+ },
+ "extremes": {
+  "max_cves_advisory_id": "ICSA-23-348-10",
+  "max_cves_advisory_title": "Siemens SIMATIC S7-1500",
+  "max_cves": 544,
+  "median_cves_per_advisory": 1.0,
+  "max_revisions_advisory_id": "ICSA-17-129-02"
+ },
+ "spot_check_ids": [
+  "ICSA-25-007-01",
+  "ICSA-10-147-01",
+  "ICSA-23-348-10",
+  "ICSA-17-129-02",
+  "ICSMA-26-253-02",
+  "ICSA-25-294-03",
+  "ICSA-25-044-06",
+  "ICSA-21-245-02",
+  "ICSA-25-226-30",
+  "ICSA-24-011-06",
+  "ICSA-25-240-06",
+  "ICSA-25-296-04"
+ ]
+}
