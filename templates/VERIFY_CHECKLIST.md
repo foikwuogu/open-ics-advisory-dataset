@@ -40,4 +40,5 @@ Initial and date each line in your own copy. `tools/publish_gate.py` checks the 
 - [x] README status line changed from draft to the release version in `templates/README.md`
 - [x] `python code/04_figures.py --final && python code/05_document.py --final`; `python tools/publish_gate.py . --allow-draft-in data/raw tools code templates` passes
 - [ ] ORCIDs for co-authors added to `AUTHORS.json` / `CITATION.cff` if they have them
-- [ ] `docs/EVIDENCE_LOG.csv`: Zenodo row updated from "reserved" to "published" with the date and saved record PDF; new rows for the GitHub release and the CFP submission
+- [x] `docs/EVIDENCE_LOG.csv`: Zenodo row marked published and GitHub release row added (2026-09-27)
+- [ ] `docs/EVIDENCE_LOG.csv`: CFP submission row, the day you submit

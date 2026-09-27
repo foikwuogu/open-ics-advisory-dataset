@@ -57,7 +57,7 @@ https://github.com/foikwuogu/open-ics-advisory-dataset
 
 ## Citation
 
-See `CITATION.cff`. DOI: [10.5281/zenodo.22985480](https://doi.org/10.5281/zenodo.22985480) (reserved on Zenodo; resolves once the record is published).
+See `CITATION.cff`. DOI for this version (v0.1.0): [10.5281/zenodo.22985480](https://doi.org/10.5281/zenodo.22985480). To cite all versions, use the concept DOI [10.5281/zenodo.22985479](https://doi.org/10.5281/zenodo.22985479), which always resolves to the latest release.
 
 ## AI assistance
 

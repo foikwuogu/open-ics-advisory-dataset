@@ -24,6 +24,13 @@ authors:
     affiliation: "Computer Science Department, University of Texas Permian Basin, Odessa, Texas, USA"
 license: CC-BY-4.0
 doi: "10.5281/zenodo.22985480"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22985480"
+    description: "This version (v0.1.0)"
+  - type: doi
+    value: "10.5281/zenodo.22985479"
+    description: "All versions (concept DOI)"
 repository-code: "https://github.com/foikwuogu/open-ics-advisory-dataset"
 abstract: "An open, reproducible dataset of every CISA ICS and ICS-medical advisory published in CSAF 2.0 format (2010-2026), parsed into advisory, advisory-CVE and CVE tables and joined to the CISA Known Exploited Vulnerabilities catalog."
 keywords:
