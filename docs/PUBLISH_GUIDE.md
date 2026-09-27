@@ -1,5 +1,3 @@
-> **DRAFT, unverified.** Generated from `paper/stats.json`; do not cite or submit until `docs/VERIFY_CHECKLIST.md` is complete.
-
 # Publish guide: Open ICS Advisory Dataset v0.1.0 + BSides talk
 
 Do these in order, in one sitting, **after** `docs/VERIFY_CHECKLIST.md` is complete. Nothing was pushed or submitted on your behalf.

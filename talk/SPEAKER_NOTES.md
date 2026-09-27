@@ -1,5 +1,3 @@
-> **DRAFT, unverified.** Generated from `paper/stats.json`; do not cite or submit until `docs/VERIFY_CHECKLIST.md` is complete.
-
 # Speaker notes: Building an Open ICS Vulnerability Dataset from Federal Sources
 
 25-minute run (about 22 minutes talking plus 3 of Q&A), delivered online via Microsoft Teams. Times are cumulative. The **55-min** notes say what to add for the long slot. Every number here comes from `paper/stats.json`; re-render before the event.

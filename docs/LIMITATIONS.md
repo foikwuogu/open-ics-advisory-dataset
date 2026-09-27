@@ -1,5 +1,3 @@
-> **DRAFT, unverified.** Generated from `paper/stats.json`; do not cite or submit until `docs/VERIFY_CHECKLIST.md` is complete.
-
 # Limitations
 
 Read these before using or citing the dataset. They are numbered so the talk and any paper can point to them.

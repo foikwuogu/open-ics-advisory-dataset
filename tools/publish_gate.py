@@ -60,7 +60,8 @@ def scan(root, allow_prefixes):
             for pat, label in SECRET_PATTERNS:
                 if pat.search(text):
                     blockers.append((rel, label))
-            allowed = any(rel.startswith(p) for p in allow_prefixes)
+            rel = rel.replace(os.sep, "/")
+            allowed = any(rel.startswith(p.replace(os.sep, "/")) for p in allow_prefixes)
             for pat, label in DRAFT_PATTERNS:
                 m = pat.search(text)
                 if m:

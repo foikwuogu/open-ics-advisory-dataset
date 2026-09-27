@@ -1,5 +1,3 @@
-> **DRAFT, unverified.** Generated from `paper/stats.json`; do not cite or submit until `docs/VERIFY_CHECKLIST.md` is complete.
-
 # Open ICS Advisory Dataset (OICSAD)
 
 **Status:** v0.1.0, released 2026-09-26 | **Maintainer:** Friday Ogochukwu Ikwuogu, ORCID [0009-0009-2222-1318](https://orcid.org/0009-0009-2222-1318) | **DOI:** [10.5281/zenodo.22985480](https://doi.org/10.5281/zenodo.22985480) | **License:** code MIT, data CC BY 4.0

@@ -1,5 +1,3 @@
-> **DRAFT, unverified.** Generated from `paper/stats.json`; do not cite or submit until `docs/VERIFY_CHECKLIST.md` is complete.
-
 # Verification checklist (author completes before any release or CFP submission)
 
 **Author sign-off:** Friday Ogochukwu Ikwuogu confirmed on 2026-09-26 that every verification item below was checked and verified. Remaining unticked items are release steps.

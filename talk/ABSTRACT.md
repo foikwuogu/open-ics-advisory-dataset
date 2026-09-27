@@ -1,5 +1,3 @@
-> **DRAFT, unverified.** Generated from `paper/stats.json`; do not cite or submit until `docs/VERIFY_CHECKLIST.md` is complete.
-
 # BSides CFP kit
 
 **Targets:** BSides Austin (December 2026; dates and CFP not yet posted as of 2026-09-26, and past CFPs closed in early October) and BSides San Antonio / BSidesSATX (June 2027; CFP not yet open, submissions via cfp.bsidessatx.com). Paste the fields below into whichever call opens first. Re-run the pipeline before submitting so the numbers match that day's feeds.
